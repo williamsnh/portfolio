@@ -10,7 +10,7 @@ body {
   background: #0d0d0f;
   color: #e8e8ec;
   font-family: 'Inter', sans-serif;
-  max-width: 780px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -73,8 +73,8 @@ nav a:hover {
 }
 
 .hero-photo img {
-  width: 280px;
-  height: 280px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid rgba(79, 142, 247, 0.3);
@@ -85,7 +85,7 @@ nav a:hover {
   font-size: 0.78rem;
   color: #4f8ef7;
   border: 1px solid rgba(79, 142, 247, 0.25);
-  background: rgba(79, 142, 247, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 6px 14px;
   border-radius: 100px;
   margin-bottom: 36px;
