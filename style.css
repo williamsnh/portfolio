@@ -57,6 +57,29 @@ nav a:hover {
   padding: 10px 0 10px;
 }
 
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-photo {
+  flex-shrink: 0;
+}
+
+.hero-photo img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(79, 142, 247, 0.3);
+}
+
 .hero-badge {
   display: inline-block;
   font-size: 0.78rem;
