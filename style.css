@@ -49,6 +49,7 @@ a {
 }
 
 .navbar {
+  z-index: 100;
   background: var(--bg);
   display: flex;
   justify-content: space-between;
