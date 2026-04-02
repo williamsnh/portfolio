@@ -100,13 +100,31 @@ nav a:hover {
   margin-top: 30px;
 }
 
+/* Icônes dans le hero */
+.hero-socials {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.hero-socials a {
+  color: #7a7a8c;
+  font-size: 1.2rem;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.hero-socials a:hover {
+  color: #4f8ef7;
+  transform: translateY(-2px);
+}
+
 .accent {
   color: #4f8ef7;
 }
 
 .hero-desc {
   color: #7a7a8c;
-  font-size: 1rem;
+  font-size: 0.9rem;
   max-width: 520px;
   margin-bottom: 36px;
 }
@@ -278,6 +296,22 @@ nav a:hover {
   border-color: #4f8ef7;
   color: #4f8ef7;
   transform: translateY(-2px);
+}
+
+.contact-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-icon-btn {
+  color: #7a7a8c;
+  font-size: 2rem;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.contact-icon-btn:hover {
+  color: #4f8ef7;
+  transform: translateY(-3px);
 }
 
 .section {
