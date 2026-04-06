@@ -213,6 +213,10 @@ nav a:hover {
   border-bottom: 1px solid var(--border);
 }
 
+.xp-item:last-child {
+  border-bottom: none;
+}
+
 .xp-header {
   display: flex;
   justify-content: space-between;
