@@ -1,3 +1,3 @@
 # portfolio
 
-> Lien PortFolio : https://william.singh027.gitlab.io/portfolio/
+> PortFolio Link : https://william.singh027.gitlab.io/portfolio/ OR 
