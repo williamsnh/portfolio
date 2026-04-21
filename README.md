@@ -1,3 +1,3 @@
 # portfolio
 
-> PortFolio Link : https://williamsnh.gitlab.io/portfolio/ OR https://portfolio-c24d72.gitlab.io
+> PortFolio Link : https://williamsnh.github.io/portfolio/
