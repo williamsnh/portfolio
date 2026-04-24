@@ -363,6 +363,12 @@ nav a:hover {
   border-top: 1px solid var(--border);
 }
 
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
 .footer {
   border-color: var(--border);
   border-top: 1px solid var(--border);
@@ -390,4 +396,37 @@ nav a:hover {
 #themeToggle:hover {
   color: var(--accent);
   border-color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+
+  .hero-photo img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  nav {
+    gap: 14px;
+  }
+
+  nav a {
+    font-size: 0.78rem;
+  }
+
+  .xp-header {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
