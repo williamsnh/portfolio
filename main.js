@@ -168,7 +168,6 @@ window.addEventListener('scroll', () => {
   });
 });
 
-const colorScheme = document.querySelector('meta[name=color-scheme]');
 const toggleBtn = document.getElementById('themeToggle');
 const icon = toggleBtn.querySelector('i');
 
@@ -206,6 +205,7 @@ langToggleBtn.addEventListener('click', () => {
 
 function applyLang(lang) {
   // Update nav
+  document.documentElement.lang = lang;
   const navLinks = document.querySelectorAll('nav a');
   navLinks[0].textContent = translations[lang].nav.about;
   navLinks[1].textContent = translations[lang].nav.xp;
@@ -216,7 +216,11 @@ function applyLang(lang) {
   document.querySelector('.hero-title').innerHTML = translations[lang].hero.title;
   document.querySelector('.hero-badge').textContent = translations[lang].hero.badge;
   document.querySelector('.hero-desc').textContent = translations[lang].hero.desc;
-  document.querySelector('.btn-primary').textContent = translations[lang].hero.cv;
+  
+  const cvBtn = document.querySelector('.btn-primary');
+  cvBtn.textContent = translations[lang].hero.cv;
+  cvBtn.href = lang === 'fr' ? 'William_CV_FR.pdf' : 'William_CV_EN.pdf';
+
   document.querySelector('.stack-label').textContent = translations[lang].hero.stack;
 
   // Update XP section
